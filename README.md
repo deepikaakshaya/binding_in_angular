@@ -31,13 +31,13 @@ Event binding
 - Two-way data binding can be achieved using a ngModel directive in Angular
 - two way data binding = property binding +  event binding
 
-## Attribute Binding:
+## Attribute Binding
  Attribute binding is used to set a attribute property of a view element
 
-## Class Binding:
+## Class Binding
  Class binding is used to set a class property of a view element
 
-## Style Binding:
+## Style Binding
  Style binding is used to set a style of a view element
 
 
