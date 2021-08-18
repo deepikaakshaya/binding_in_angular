@@ -1,27 +1,47 @@
-# Practice
+# Binding
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
+Interacting with some concepts
 
-## Development server
+## Types of binding
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Interpolation
+- Property binding
+- Class binding
+- Style binding
+- Attribute binding
+- Event binding
+- Two-way binding
 
-## Code scaffolding
+## One Way data binding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- In one-way data binding, data flows only in one direction i.e from the component to the HTML
+- It consists of Interpolation ,
+Property binding,
+Event binding
 
-## Build
+## Event binding
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+ - The Event binding feature helps listen to certain events such as mouse movements, keystrokes, clicks, etc
+ - In Angular, event binding can be achieved by specifying the target event name within regular brackets on the left of an equal to ( = ) sign, and the template statement on the right side within quotes (” “)
+  
+## Two Way data binding
 
-## Running unit tests
+- Exchange data from the component to view and from view to the component
+- It help users to establish communication bi-directionally
+- Two-way data binding can be achieved using a ngModel directive in Angular
+- two way data binding = property binding +  event binding
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Attribute Binding:
+ Attribute binding is used to set a attribute property of a view element
 
-## Running end-to-end tests
+## Class Binding:
+ Class binding is used to set a class property of a view element
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Style Binding:
+ Style binding is used to set a style of a view element
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
